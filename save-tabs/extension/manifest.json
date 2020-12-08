@@ -2,7 +2,7 @@
     "name": "Save Tabs",
     "version": "1.0",
     "description": "Save your active tabs by a topic. Later you can reference or open the same tabs.",
-    "permissions": ["storage"],
+    "permissions": ["storage", "tabs"],
     "manifest_version": 2,
     "background": {
         "scripts": ["background.js"],
